@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Foodieland is an online food recipe
+    catalogue and go-to guide for preparing most of your most loved dishes along
+    with the best guides to make cooking easier and fun. />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="Stylesheet" href="css/style.css" />
+    <link rel="Stylesheet" href="css/general.css" />
+    <link rel="Stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="JS/script.js"></script>
+
+    <title>Foodieland &mdash; Recipe for every meal</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          alt="Foodieland logo"
+          src="img/homepage-img/hero_imgs/logo.png"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-links">
+          <li><a class="main-nav-link" href="index.html">Home</a></li>
+          <li><a class="main-nav-link" href="recipelink.html">Recipe</a></li>
+          <li><a class="main-nav-link" href="blogs&articles.html">Blog</a></li>
+          <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+          <li><a class="main-nav-link" href="#">About us</a></li>
+        </ul>
+
+        <div class="social-media">
+          <a href="#"><img src="icons/nav_icons/facebook.svg" /></a>
+          <a href="#"> <img src="icons/nav_icons/twitter.svg" /></a>
+          <a href="#"> <img src="icons/nav_icons/instagram.svg" /></a>
+        </div>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <div class="hero-recipe-box">
+              <div class="hero-recipe-box-2">
+                <img src="img/homepage-img/hero_imgs/recipe_img.png" />
+                <p class="hero-recipe-text">Hot Recipe</p>
+              </div>
+            </div>
+
+            <h1 class="heading-primary hero-title">
+              Spicy delicious chicken wings
+            </h1>
+
+            <p class="hero-description">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim
+            </p>
+
+            <div class="time-and-cutlery time-and-cutlery-header">
+              <div class="time">
+                <img src="icons/recipe_icons/timer_icon.svg" />
+                <span class="time-subhead">30 Minutes</span>
+              </div>
+              <div class="cutlery">
+                <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                <span class="time-subhead">Chicken</span>
+              </div>
+            </div>
+
+            <div class="view-recipe-box">
+              <div class="profile-box">
+                <img
+                  src="img/homepage-img/hero_imgs/john_smith_pic.png"
+                  class="profile-img"
+                />
+                <p class="profile-name">
+                  John Smith
+                  <span class="subheading hero-span">15 March 2022</span>
+                </p>
+              </div>
+
+              <div class="view-recipe-btn">
+                <a href="#" class="view-recipe-text">View recipe</a>
+                <img
+                  src="icons/recipe_icons/PlayCircle.svg"
+                  class="play-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/homepage-img/hero_imgs/hero_img.jpg"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-category">
+        <div class="category-box container grid">
+          <div class="category-heading">
+            <h2 class="heading-secondary category-title">Category</h2>
+            <a href="#" class="view-all btn">View All Category</a>
+          </div>
+
+          <div class="categories grid grid--6-cols">
+            <div class="category">
+              <img
+                src="img/homepage-img/category_imgs/breakfast_img.png"
+                class="category-img"
+              />
+              <p class="category-type">Breakfast</p>
+            </div>
+            <div class="category">
+              <img
+                src="img/homepage-img/category_imgs/vegan_img.png"
+                class="category-img"
+              />
+              <p class="category-type">Vegan</p>
+            </div>
+            <div class="category red-bg">
+              <img
+                src="img/homepage-img/category_imgs/meat_img.png"
+                class="category-img"
+              />
+              <p class="category-type">Meat</p>
+            </div>
+            <div class="category red-bg">
+              <img
+                src="img/homepage-img/category_imgs/desert_img.png"
+                class="category-img"
+              />
+              <p class="category-type">Desert</p>
+            </div>
+            <div class="category">
+              <img
+                src="img/homepage-img/category_imgs/lunch_img.png"
+                class="category-img"
+              />
+              <p class="category-type">Lunch</p>
+            </div>
+            <div class="category">
+              <img
+                src="img/homepage-img/category_imgs/chocolate_img.png"
+                class="category-img"
+              />
+              <p class="category-type">Chocolate</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-recipe" id="recipe">
+        <div class="recipe-box container">
+          <div class="recipe-text-box">
+            <h2 class="heading-secondary tasty-recipe-title">
+              Simple and tasty recipes
+            </h2>
+            <p class="recipe-description">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim
+            </p>
+          </div>
+
+          <div class="recipe-gallery grid grid--3-cols">
+            <div class="recipe" id="recipe-1">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_1.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+                <a class="slide__prev" href="#recipe-8" title="Next"></a>
+                <a class="slide__next" href="#recipe-2" title="Next"></a>
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe" id="recipe-2">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_2.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+                <a class="slide__prev" href="#recipe-1" title="Next"></a>
+                <a class="slide__next" href="#recipe-3" title="Next"></a>
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Fresh Lime Roasted Salmon with Ginger Sauce
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe recipe-to-hide" id="recipe-3">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_3.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Strawberry Oatmeal Pancake with Honey Syrup
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe" id="recipe-4">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_4.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Fresh and Healthy Mixed Mayonnaise Salad
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe" id="recipe-5">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_5.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Chicken Meatballs with Cream Cheese
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe recipe-to-hide" id="recipe-6">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_1.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe" id="recipe-7">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_6.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Fruity Pancake with Orange & Blueberry
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_7.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+                <a class="slide__prev" href="#recipe-7" title="Next"></a>
+                <a class="slide__next" href="#recipe-1" title="Next"></a>
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  The Best Easy One Pot Chicken and Rice
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe recipe-8 recipe-to-hide">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_8.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="recipe-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  The Creamiest Creamy Chicken and Bacon Pasta
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-chef">
+        <div class="chef-box container grid grid--2-cols">
+          <div class="chef-text-box">
+            <h2 class="heading-secondary chef-title">
+              Everyone can be a chef in their own kitchen
+            </h2>
+            <p class="chef-description">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim
+            </p>
+
+            <a href="#" class="btn">Learn More</a>
+          </div>
+
+          <div class="chef-img-box">
+            <img
+              src="img/homepage-img/recipe_imgs/chef_img_learn_more.png"
+              class="chef-img"
+              alt="image of a chef"
+            />
+            <img
+              src="img/homepage-img/category_imgs/vegan_img.png"
+              class="overlay-img overlay-img-1"
+            />
+            <img
+              src="img/homepage-img/category_imgs/meat_img.png"
+              class="overlay-img overlay-img-2"
+            />
+            <img
+              src="img/homepage-img/recipe_imgs/tomato.png"
+              class="overlay-img overlay-img-3"
+            />
+            <img
+              src="img/homepage-img/recipe_imgs/onion.png"
+              class="overlay-img overlay-img-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-instagram">
+        <div class="instagram-box container">
+          <div class="instagram-text-box">
+            <h2 class="heading-secondary ig-title">
+              Check out @foodieland on Instagram
+            </h2>
+            <p class="instagram-description">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim
+            </p>
+          </div>
+
+          <div class="insta-photos grid grid--4-cols">
+            <img
+              src="img/homepage-img/instagram/ig_post_1.png"
+              class="ig-imgs ig--1"
+            />
+            <img
+              src="img/homepage-img/instagram/ig_post_2.png"
+              class="ig-imgs ig--2"
+            />
+            <img
+              src="img/homepage-img/instagram/ig_post_3.png"
+              class="ig-imgs ig--3"
+            />
+            <img
+              src="img/homepage-img/instagram/ig_post_4.png"
+              class="ig-imgs ig--4"
+            />
+          </div>
+
+          <div class="view-our-instagram">
+            <a href="#" class="view-recipe-text">View recipe</a>
+            <img src="icons/recipe_icons/004-instagram.svg" class="play-icon" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-gallery">
+        <div class="gallery-box container grid">
+          <div class="gallery-text-box grid grid--2-cols">
+            <h2 class="heading-secondary gallery-title">
+              Try this delicious recipe to make your day
+            </h2>
+            <p class="gallery-description">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim
+            </p>
+          </div>
+
+          <div class="gallery-cols grid grid--4-cols">
+            <div class="gallery-recipe">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs recipe-trial-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_9.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="gallery-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Mixed Tropical Fruit Salad with Superfood Boosts
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-recipe">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs recipe-trial-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_10.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="gallery-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-recipe">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs recipe-trial-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_11.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="gallery-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <a href="recipelink.html" class="heading-tertiary recipe-name">
+                  Healthy Japanese Fried Rice with Asparagus
+                </a>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-recipe">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs recipe-trial-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_12.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="gallery-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Cauliflower Walnut Vegetarian Taco Meat
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-recipe recipe-to-hide">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs recipe-trial-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_13.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="gallery-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Rainbow Chicken Salad with Almond Honey Mustard Dressing
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-recipe">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs recipe-trial-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_14.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="gallery-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Barbeque Spicy Sandwiches with Chips
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-recipe">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs recipe-trial-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_15.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="gallery-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Firecracker Vegan Lettuce Wraps - Spicy!
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-recipe recipe-to-hide">
+              <div class="recipe-img-box">
+                <img
+                  class="recipe-imgs recipe-trial-imgs"
+                  src="img/homepage-img/recipe_imgs/recipe_16.png"
+                />
+                <img
+                  src="icons/recipe_icons/red_heart.svg"
+                  class="gallery-emoji"
+                />
+              </div>
+              <div class="recipe-info">
+                <p class="heading-tertiary recipe-name">
+                  Chicken Ramen Soup with Mushroom
+                </p>
+
+                <div class="time-and-cutlery">
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/timer_icon.svg" />
+                    <span class="time-subhead">30 Minutes</span>
+                  </div>
+                  <div class="recipe-time">
+                    <img src="icons/recipe_icons/ForkKnife_icon.svg" />
+                    <span class="time-subhead">Chicken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="cta-box container">
+          <img
+            src="img/homepage-img/subscribe_imgs/kisspng-salad-fresh-food.png"
+            alt="Image of salad, freshfood, healthy meal, vitamins"
+            class="cta-img-1 cta-img"
+          />
+
+          <div class="cta-text-box">
+            <div class="cta-main-text">
+              <h2 class="heading-secondary cta-title">
+                Deliciousness to your inbox
+              </h2>
+              <p class="cta-description">
+                Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqut enim
+                ad minim
+              </p>
+            </div>
+
+            <form class="cta-form" action="#">
+              <div>
+                <label for="email"></label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Your email address..."
+                  required
+                />
+              </div>
+              <button class="btn btn--form">Subscribe</button>
+            </form>
+          </div>
+
+          <img
+            src="img/homepage-img/subscribe_imgs/rucola-png.png"
+            class="cta-img-2 cta-img"
+          />
+          <img
+            src="img/homepage-img/subscribe_imgs/Photo-plate.png"
+            class="cta-img-3 cta-img"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="section-footer">
+      <div class="footer-box container">
+        <div class="footer-content-grid grid">
+          <div class="footer-logo-box">
+            <img
+              src="img/homepage-img/hero_imgs/logo.png"
+              alt="Foodieland logo"
+            />
+
+            <div class="social-media-footer">
+              <a href="#"><img src="icons/nav_icons/facebook.svg" /></a>
+              <a href="#"> <img src="icons/nav_icons/twitter.svg" /></a>
+              <a href="#"> <img src="icons/nav_icons/instagram.svg" /></a>
+            </div>
+            <p class="footer-description">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit,
+            </p>
+          </div>
+          <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Create account</a></li>
+              <li><a class="footer-link" href="#">Sign in</a></li>
+              <li><a class="footer-link" href="#">iOS app</a></li>
+              <li><a class="footer-link" href="#">Android app</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">About Foodieland</a></li>
+              <li><a class="footer-link" href="#">For Business</a></li>
+              <li><a class="footer-link" href="#">Cooking partners</a></li>
+              <li><a class="footer-link" href="#">Careers</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Recipe directory </a></li>
+              <li><a class="footer-link" href="#">Help center</a></li>
+              <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="copyright-box">
+          <p class="copyright-name">
+            &copy; Made by <a href="#">Chidera Anthony.</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
